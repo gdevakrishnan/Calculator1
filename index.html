@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Deva Krishnan">
+  <meta name="theme-color" content="#B3B3B3">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="apple-icon" sizes="192x192" href="images/calculator.png">
+  <link rel="icon" sizes="192x192" href="images/calculator.png">
+</head>
+
+<body>
+  <header>
+    <h1 class="titel">Sigma Calculator</h1>
+  </header>
+  <div class="container">
+    <div class="display"></div>
+    <div class="calc1">
+      <div class="buttons">
+        <div class="button AC" onclick="AC()"><a href="#">AC</a></div>
+        <div class="button DEL" onclick="DEL()"><a href="#">DEL</a></div>
+        <div class="button" onclick="myFunction('%')"><a href="#">%</a></div>
+        <div class="button" onclick="myFunction('/')"><a href="#">/</a></div>
+      </div>
+      <div class="buttons">
+        <div class="button" onclick="myFunction(7)"><a href="#">7</a></div>
+        <div class="button" onclick="myFunction(8)"><a href="#">8</a></div>
+        <div class="button" onclick="myFunction(9)"><a href="#">9</a></div>
+        <div class="button" onclick="myFunction('*')"><a href="#">*</a></div>
+      </div>
+      <div class="buttons">
+        <div class="button" onclick="myFunction(4)"><a href="#">4</a></div>
+        <div class="button" onclick="myFunction(5)"><a href="#">5</a></div>
+        <div class="button" onclick="myFunction(6)"><a href="#">6</a></div>
+        <div class="button" onclick="myFunction('-')"><a href="#">-</a></div>
+      </div>
+      <div class="buttons">
+        <div class="button" onclick="myFunction(1)"><a href="#">1</a></div>
+        <div class="button" onclick="myFunction(2)"><a href="#">2</a></div>
+        <div class="button" onclick="myFunction(3)"><a href="#">3</a></div>
+        <div class="button" onclick="myFunction('+')"><a href="#">+</a></div>
+      </div>
+      <div class="buttons">
+        <div class="button" onclick="myFunction('.')"><a href="#">.</a></div>
+        <div class="button" onclick="myFunction(0)"><a href="#">0</a></div>
+        <div class="button more" onclick="myMenu()"><a href="#">MORE</a></div>
+        <div class="button result" onclick="result()"><a href="#">=</a></div>
+      </div>
+    </div>
+    <div class="calc2">
+      <div class="buttons">
+        <div class="button" onclick="myFunction('(')"><a href="#">(</a></div>
+        <div class="button" onclick="myFunction(')')"><a href="#">)</a></div>
+        <div class="button" onclick="myFunction('**'+0.5)"><a href="#">sqrt</a></div>
+        <div class="button more" onclick="myMenu()"><a href="#">BACK</a></div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

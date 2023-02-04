@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Audiowide', cursive;
+}
+
+::selection {
+  background: none;
+}
+  
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #B3B3B3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+header {
+  height: auto;
+  width: 100%;
+  background-color: #121212;
+  color: #B3B3B3;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+header .title {
+  font-size: 22px;
+}
+
+.container {
+    width: 30%;
+    height: 70%;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.container .display {
+    width: 100%;
+    height: 20%;
+    background-color: #B3B3B3;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 15px 10px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+/*   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+
+/* calc1 */
+.container .calc1 {
+    width: 100%;
+    height: 70%;
+    /* display: none; */
+}
+
+.container .calc2 {
+    width: 100%;
+    height: 70%;
+    background-color: red;
+    display: none;
+}
+
+.container .calc1 .buttons {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .calc1 .buttons .button {
+    background-color: #B3B3B3;
+    display: flex;
+    justify-content: center;
+    margin: 4px 6px;
+    align-items: center;
+    width: 25%;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+/*   box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset; */
+}
+
+.container .calc1 .buttons .button a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* calc2 */
+.container .calc2 {
+    width: 100%;
+    height: 70%;
+    background-color: #121212;
+    /* display: none; */
+}
+
+.container .calc2 {
+    width: 100%;
+    height: 70%;
+    display: none;
+}
+
+.container .calc2 .buttons {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .calc2 .buttons .button {
+    background-color: #B3B3B3;
+    display: flex;
+    justify-content: center;
+    margin: 4px 6px;
+    align-items: center;
+    width: 25%;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+/*   box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset; */
+}
+
+.container .calc2 .buttons .button a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+.container .calc1 .buttons .AC {
+  background-color: orangered;
+}
+
+.container .calc1 .buttons .more, 
+.container .calc2 .buttons .more {
+    background-color: cornflowerblue;
+}
+
+.container .calc1 .buttons .DEL {
+  background-color: yellow;
+}
+
+.container .calc1 .buttons .result {
+  background-color: green;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 98%;
+    height: 70%;
+  }
+}
